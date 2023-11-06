@@ -1,0 +1,386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1796134106409128}
+  m_IsPrefabAsset: 1
+--- !u!1 &1796134106409128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4510841233206840}
+  - component: {fileID: 114606179252516480}
+  m_Layer: 0
+  m_Name: PlayerStatLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4510841233206840
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1796134106409128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114606179252516480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1796134106409128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df23d4cd5fb642948b1d17b35268c3e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed:
+  - cost: 0
+    value: 2
+  - cost: 5
+    value: 2.1
+  - cost: 10
+    value: 2.1999998
+  - cost: 15
+    value: 2.2999997
+  - cost: 20
+    value: 2.3999996
+  - cost: 25
+    value: 2.4999995
+  - cost: 30
+    value: 2.5999994
+  - cost: 35
+    value: 2.6999993
+  - cost: 40
+    value: 2.7999992
+  - cost: 45
+    value: 2.8999991
+  - cost: 50
+    value: 2.999999
+  - cost: 55
+    value: 3.099999
+  - cost: 60
+    value: 3.1999989
+  - cost: 65
+    value: 3.2999988
+  - cost: 70
+    value: 3.3999987
+  - cost: 75
+    value: 3.4999986
+  - cost: 80
+    value: 3.5999985
+  - cost: 85
+    value: 3.6999984
+  - cost: 90
+    value: 3.7999983
+  - cost: 95
+    value: 3.8999982
+  - cost: 100
+    value: 3.999998
+  - cost: 105
+    value: 4.099998
+  - cost: 110
+    value: 4.199998
+  - cost: 115
+    value: 4.299998
+  - cost: 120
+    value: 4.3999977
+  - cost: 125
+    value: 4.4999976
+  - cost: 130
+    value: 4.5999975
+  - cost: 135
+    value: 4.6999974
+  - cost: 140
+    value: 4.7999973
+  - cost: 145
+    value: 4.899997
+  - cost: 150
+    value: 4.999997
+  - cost: 155
+    value: 5.099997
+  - cost: 160
+    value: 5.199997
+  - cost: 165
+    value: 5.299997
+  - cost: 170
+    value: 5.3999968
+  - cost: 175
+    value: 5.4999967
+  - cost: 180
+    value: 5.5999966
+  - cost: 185
+    value: 5.6999965
+  - cost: 190
+    value: 5.7999964
+  - cost: 195
+    value: 5.8999963
+  - cost: 200
+    value: 5.999996
+  - cost: 205
+    value: 6.099996
+  - cost: 210
+    value: 6.199996
+  - cost: 215
+    value: 6.299996
+  - cost: 220
+    value: 6.399996
+  - cost: 225
+    value: 6.4999957
+  - cost: 230
+    value: 6.5999956
+  - cost: 235
+    value: 6.6999955
+  - cost: 240
+    value: 6.7999954
+  - cost: 245
+    value: 6.8999953
+  - cost: 250
+    value: 6.999995
+  health:
+  - cost: 0
+    value: 50
+  - cost: 10
+    value: 55
+  - cost: 20
+    value: 60
+  - cost: 30
+    value: 65
+  - cost: 40
+    value: 70
+  - cost: 50
+    value: 75
+  - cost: 60
+    value: 80
+  - cost: 70
+    value: 85
+  - cost: 80
+    value: 90
+  - cost: 90
+    value: 95
+  - cost: 100
+    value: 100
+  - cost: 110
+    value: 105
+  - cost: 120
+    value: 110
+  - cost: 130
+    value: 115
+  - cost: 140
+    value: 120
+  - cost: 150
+    value: 125
+  - cost: 160
+    value: 130
+  - cost: 170
+    value: 135
+  - cost: 180
+    value: 140
+  - cost: 190
+    value: 145
+  - cost: 200
+    value: 150
+  - cost: 210
+    value: 155
+  - cost: 220
+    value: 160
+  - cost: 230
+    value: 165
+  - cost: 240
+    value: 170
+  - cost: 250
+    value: 175
+  - cost: 260
+    value: 180
+  - cost: 270
+    value: 185
+  - cost: 280
+    value: 190
+  - cost: 290
+    value: 195
+  - cost: 300
+    value: 200
+  - cost: 310
+    value: 205
+  - cost: 320
+    value: 210
+  - cost: 330
+    value: 215
+  - cost: 340
+    value: 220
+  - cost: 350
+    value: 225
+  - cost: 360
+    value: 230
+  - cost: 370
+    value: 235
+  - cost: 380
+    value: 240
+  - cost: 390
+    value: 245
+  - cost: 400
+    value: 250
+  - cost: 410
+    value: 255
+  - cost: 420
+    value: 260
+  - cost: 430
+    value: 265
+  - cost: 440
+    value: 270
+  - cost: 450
+    value: 275
+  - cost: 460
+    value: 280
+  - cost: 470
+    value: 285
+  - cost: 480
+    value: 290
+  - cost: 490
+    value: 295
+  - cost: 500
+    value: 300
+  pickupRange:
+  - cost: 0
+    value: 1
+  - cost: 50
+    value: 1.1
+  - cost: 100
+    value: 1.2
+  - cost: 150
+    value: 1.3000001
+  - cost: 200
+    value: 1.4000001
+  - cost: 250
+    value: 1.5000001
+  - cost: 300
+    value: 1.6000001
+  - cost: 350
+    value: 1.7000002
+  - cost: 400
+    value: 1.8000002
+  - cost: 450
+    value: 1.9000002
+  - cost: 500
+    value: 2.0000002
+  - cost: 550
+    value: 2.1000004
+  - cost: 600
+    value: 2.2000003
+  - cost: 650
+    value: 2.3000002
+  - cost: 700
+    value: 2.4
+  - cost: 750
+    value: 2.5
+  - cost: 800
+    value: 2.6
+  - cost: 850
+    value: 2.6999998
+  - cost: 900
+    value: 2.7999997
+  - cost: 950
+    value: 2.8999996
+  - cost: 1000
+    value: 2.9999995
+  - cost: 1050
+    value: 3.0999994
+  - cost: 1100
+    value: 3.1999993
+  - cost: 1150
+    value: 3.2999992
+  - cost: 1200
+    value: 3.3999991
+  - cost: 1250
+    value: 3.499999
+  - cost: 1300
+    value: 3.599999
+  - cost: 1350
+    value: 3.6999989
+  - cost: 1400
+    value: 3.7999988
+  - cost: 1450
+    value: 3.8999987
+  - cost: 1500
+    value: 3.9999986
+  - cost: 1550
+    value: 4.0999985
+  - cost: 1600
+    value: 4.1999984
+  - cost: 1650
+    value: 4.2999983
+  - cost: 1700
+    value: 4.399998
+  - cost: 1750
+    value: 4.499998
+  - cost: 1800
+    value: 4.599998
+  - cost: 1850
+    value: 4.699998
+  - cost: 1900
+    value: 4.799998
+  - cost: 1950
+    value: 4.8999977
+  - cost: 2000
+    value: 4.9999976
+  - cost: 2050
+    value: 5.0999975
+  - cost: 2100
+    value: 5.1999974
+  - cost: 2150
+    value: 5.2999973
+  - cost: 2200
+    value: 5.399997
+  - cost: 2250
+    value: 5.499997
+  - cost: 2300
+    value: 5.599997
+  - cost: 2350
+    value: 5.699997
+  - cost: 2400
+    value: 5.799997
+  - cost: 2450
+    value: 5.8999968
+  - cost: 2500
+    value: 5.9999967
+  maxWeapons:
+  - cost: 0
+    value: 3
+  - cost: 200
+    value: 4
+  - cost: 500
+    value: 5
+  - cost: 900
+    value: 6
+  - cost: 1300
+    value: 7
+  - cost: 1800
+    value: 8
+  - cost: 2500
+    value: 9
+  - cost: 3200
+    value: 10
+  moveSpeedLevelCount: 50
+  healthLevelCount: 50
+  pickupRangeLevelCount: 50
+  moveSpeedLevel: 0
+  healthLevel: 0
+  pickupRangeLevel: 0
+  maxWeaponsLevel: 0

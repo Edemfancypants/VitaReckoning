@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1245791225356746}
+  m_IsPrefabAsset: 1
+--- !u!1 &1245791225356746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4180011097316656}
+  - component: {fileID: 114218813792670960}
+  m_Layer: 0
+  m_Name: ObstacleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4180011097316656
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245791225356746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114218813792670960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245791225356746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad74aca15bbe3924194f86cbf77ce97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 1255687888947930, guid: 9ea495f1988d48944bc8636de57538e7, type: 2}
+  - {fileID: 1547327277542360, guid: ab3e24f73795bfd4085c47d4425883a3, type: 2}
+  - {fileID: 1098852126665098, guid: 2e3c937584b12eb4ab20f9daa27274de, type: 2}
+  - {fileID: 1749230637720850, guid: 340aae7667eed0b40be1bb90658728b3, type: 2}
+  - {fileID: 1156820049083066, guid: e7360a811a72f034ab3d078aa7e2873d, type: 2}
+  - {fileID: 1750134740089774, guid: 007eea796da27354786e96df04ed66eb, type: 2}
+  obstaclePrefab: {fileID: 0}
